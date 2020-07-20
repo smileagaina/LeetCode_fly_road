@@ -7,7 +7,7 @@
 
 graph将会以邻接表方式给出，graph[i]表示图中与节点i相连的所有节点。每个节点都是一个在0到graph.length-1之间的整数。这图中没有自环和平行边： graph[i] 中不存在i，并且graph[i]中没有重复的值。
 
-![b9412dc1b1ab3fee1e0f3b995e1f978c.png](en-resource://database/1595:1)
+![leetcode785_判断二分图_1.png](/assets/leetcode785_判断二分图_1.png)
 
 官方思路：
 对于图中的任意两个节点 uu 和 vv，如果它们之间有一条边直接相连，那么 uu 和 vv 必须属于不同的集合。
@@ -21,7 +21,7 @@ graph将会以邻接表方式给出，graph[i]表示图中与节点i相连的所
 # 广度优先搜索
 最先想到的可能是广度优先搜索，或者是并查集。
 广度优先搜索的思路就是，比如
-![5fbe672aed45f0721d2b4ce584e2feee.png](en-resource://database/1596:1)
+![leetcode785_判断二分图_BFS.png](/assets/leetcode785_判断二分图_BFS.png)
 随机取一个起始点v，然后从该点开始，遍历所有的邻接点w,
 如果w已经访问，那么判断颜色；
 如果w没有访问，则把当前的邻接点w设置为和当前点v不一样的颜色
@@ -56,7 +56,7 @@ class Solution {
 ```
 
 # 深度优先搜索
-![0b190cf5933f026ed4eadd126cc772b2.png](en-resource://database/1597:1)
+![leetcode785_判断二分图_DFS.png](/assets/leetcode785_判断二分图_DFS.png)
 
 如图，和广度优先的不同之处在于，深度优先搜索实在回溯的时候，进行判断。
 如果蓝色线，回来找的邻接点w应该是绿色，
