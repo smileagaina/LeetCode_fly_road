@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a24bf214-0e51-486f-93a2-d8118f2c514f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/二叉树/最近公共祖先.md" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/最近公共祖先.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/图论_搜索/leetcode785_判断二分图.md" beforeDir="false" afterPath="$PROJECT_DIR$/图论_搜索/leetcode785_判断二分图.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/比赛_百度之星/初赛2020_7_26.md" beforeDir="false" afterPath="$PROJECT_DIR$/比赛_百度之星/初赛2020_7_26.md" afterDir="false" />
     </list>
@@ -37,7 +38,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596163944418</updated>
-      <workItem from="1596163945888" duration="590000" />
+      <workItem from="1596163945888" duration="841000" />
     </task>
     <servers />
   </component>
